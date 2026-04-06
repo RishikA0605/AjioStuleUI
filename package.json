@@ -4,7 +4,7 @@
   "description": "react complete course",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --no-scope-hoist",
     "test": "echo \"Error: no test specified\" && exit 1"
     
   },
